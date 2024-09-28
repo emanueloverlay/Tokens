@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Token</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Autenticación con Token</h1>
+
+        <!-- Formulario de Login -->
+        <div>
+            <form id="loginForm">
+                <label for="username">Usuario:</label>
+                <input type="text" id="username" name="username" required><br><br>
+
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required autocomplete="off"><br><br>
+
+                <input type="submit" value="Iniciar sesión">
+            </form>
+        </div>
+
+        <!-- Sección de Token -->
+        <div class="token-section">
+            <h2>Token:</h2>
+            <p id="tokenDisplay"></p>
+        </div>
+
+        <!-- Formulario para Verificar Token -->
+        <div class="verify-section">
+            <h2>Verificar Token</h2>
+            <form id="verifyForm">
+                <label for="tokenInput">Introduce el token:</label>
+                <input type="text" id="tokenInput" name="token"><br><br>
+
+                <button id="verifyTokenButton">Verificar Token</button>
+            </form>
+        </div>
+
+        <!-- Sección de Resultado de Verificación -->
+        <div class="verification-result">
+            <p id="verificationDisplay"></p>
+        </div>
+    </div>
+
+    <script src="token.js"></script>
+
+
+</body>
+
+</html>
