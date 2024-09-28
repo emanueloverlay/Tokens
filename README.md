@@ -29,7 +29,7 @@
 <h2>🚀 Tecnologías Utilizadas</h2>
 
 <ul>
-    <li><strong>PHP</strong> 7.4+</li>
+    <li><strong>PHP</strong></li>
     <li><strong>HTML</strong></li>
     <li><strong>JavaScript</strong></li>
     <li><strong>CSS</strong></li>
